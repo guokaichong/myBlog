@@ -1,3 +1,34 @@
 INFO 2019-01-03 20:45:12,535 basehttp 136 "GET / HTTP/1.1" 200 16286
 INFO 2019-01-03 20:45:46,397 basehttp 136 "GET / HTTP/1.1" 200 16286
 INFO 2019-01-03 20:47:27,146 basehttp 136 "GET / HTTP/1.1" 200 16286
+INFO 2019-01-03 23:25:59,885 basehttp 136 "GET / HTTP/1.1" 200 17180
+INFO 2019-01-03 23:25:59,899 basehttp 136 "GET /static/css/base/reset.css HTTP/1.1" 200 1427
+INFO 2019-01-03 23:25:59,900 basehttp 136 "GET /static/css/base/common.css HTTP/1.1" 200 3498
+INFO 2019-01-03 23:25:59,904 basehttp 136 "GET /static/images/python_gui.jpg HTTP/1.1" 200 24129
+INFO 2019-01-03 23:25:59,907 basehttp 136 "GET /static/css/base/side.css HTTP/1.1" 200 4451
+INFO 2019-01-03 23:25:59,912 basehttp 136 "GET /static/css/news/index.css HTTP/1.1" 200 5500
+INFO 2019-01-03 23:25:59,915 basehttp 136 "GET /static/images/linux.jpg HTTP/1.1" 200 62189
+INFO 2019-01-03 23:25:59,929 basehttp 136 "GET /static/images/jichujiaochen.jpeg HTTP/1.1" 200 11286
+INFO 2019-01-03 23:25:59,929 basehttp 136 "GET /static/js/base/common.js HTTP/1.1" 200 223
+INFO 2019-01-03 23:25:59,930 basehttp 136 "GET /static/images/python_function.jpg HTTP/1.1" 200 27960
+INFO 2019-01-03 23:25:59,930 basehttp 136 "GET /static/js/index.js HTTP/1.1" 200 1510
+INFO 2019-01-03 23:25:59,932 basehttp 136 "GET /static/images/python_advanced.jpg HTTP/1.1" 200 120059
+INFO 2019-01-03 23:25:59,934 basehttp 136 "GET /static/images/python_web.jpg HTTP/1.1" 200 45717
+INFO 2019-01-03 23:25:59,942 basehttp 136 "GET /static/images/english.jpg HTTP/1.1" 200 137605
+WARNING 2019-01-03 23:25:59,981 log 228 Not Found: /MyBlog_Static_Files/images/wechat.jpg
+WARNING 2019-01-03 23:25:59,982 basehttp 136 "GET /MyBlog_Static_Files/images/wechat.jpg HTTP/1.1" 404 2212
+WARNING 2019-01-03 23:26:00,580 log 228 Not Found: /favicon.ico
+WARNING 2019-01-03 23:26:00,582 basehttp 136 "GET /favicon.ico HTTP/1.1" 404 2134
+WARNING 2019-01-03 23:26:34,880 log 228 Not Found: /index
+WARNING 2019-01-03 23:26:34,881 basehttp 136 "GET /index HTTP/1.1" 404 2116
+INFO 2019-01-03 23:26:41,283 basehttp 136 "GET / HTTP/1.1" 200 17180
+WARNING 2019-01-03 23:26:41,328 log 228 Not Found: /MyBlog_Static_Files/images/wechat.jpg
+WARNING 2019-01-03 23:26:41,329 basehttp 136 "GET /MyBlog_Static_Files/images/wechat.jpg HTTP/1.1" 404 2212
+WARNING 2019-01-03 23:26:54,488 log 228 Not Found: /users/register.html
+WARNING 2019-01-03 23:26:54,489 basehttp 136 "GET /users/register.html HTTP/1.1" 404 2158
+INFO 2019-01-03 23:28:08,404 basehttp 136 "GET / HTTP/1.1" 200 17189
+WARNING 2019-01-03 23:28:08,483 log 228 Not Found: /MyBlog_Static_Files/images/wechat.jpg
+WARNING 2019-01-03 23:28:08,485 basehttp 136 "GET /MyBlog_Static_Files/images/wechat.jpg HTTP/1.1" 404 2212
+INFO 2019-01-03 23:28:17,623 basehttp 136 "GET / HTTP/1.1" 200 17189
+WARNING 2019-01-03 23:28:17,665 log 228 Not Found: /MyBlog_Static_Files/images/wechat.jpg
+WARNING 2019-01-03 23:28:17,666 basehttp 136 "GET /MyBlog_Static_Files/images/wechat.jpg HTTP/1.1" 404 2212
