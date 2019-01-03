@@ -32,3 +32,17 @@ WARNING 2019-01-03 23:28:08,485 basehttp 136 "GET /MyBlog_Static_Files/images/we
 INFO 2019-01-03 23:28:17,623 basehttp 136 "GET / HTTP/1.1" 200 17189
 WARNING 2019-01-03 23:28:17,665 log 228 Not Found: /MyBlog_Static_Files/images/wechat.jpg
 WARNING 2019-01-03 23:28:17,666 basehttp 136 "GET /MyBlog_Static_Files/images/wechat.jpg HTTP/1.1" 404 2212
+INFO 2019-01-03 23:54:47,340 basehttp 136 "GET / HTTP/1.1" 200 17189
+INFO 2019-01-03 23:54:47,351 basehttp 136 "GET /static/css/base/side.css HTTP/1.1" 304 0
+WARNING 2019-01-03 23:54:47,394 log 228 Not Found: /MyBlog_Static_Files/images/wechat.jpg
+WARNING 2019-01-03 23:54:47,395 basehttp 136 "GET /MyBlog_Static_Files/images/wechat.jpg HTTP/1.1" 404 2385
+INFO 2019-01-03 23:55:11,088 basehttp 136 "GET /register HTTP/1.1" 301 0
+INFO 2019-01-03 23:55:11,107 basehttp 136 "GET /register/ HTTP/1.1" 200 4198
+WARNING 2019-01-03 23:55:11,125 log 228 Not Found: /MyBlog_Static_Files/images/captcha.png
+INFO 2019-01-03 23:55:11,125 basehttp 136 "GET /static/css/authPro/auth.css HTTP/1.1" 200 3286
+WARNING 2019-01-03 23:55:11,126 basehttp 136 "GET /MyBlog_Static_Files/images/captcha.png HTTP/1.1" 404 2388
+WARNING 2019-01-03 23:55:19,305 log 228 Not Found: /register/register.html
+WARNING 2019-01-03 23:55:19,306 basehttp 136 "GET /register/register.html HTTP/1.1" 404 2340
+INFO 2019-01-03 23:55:32,975 basehttp 136 "GET / HTTP/1.1" 200 17189
+WARNING 2019-01-03 23:55:33,039 log 228 Not Found: /MyBlog_Static_Files/images/wechat.jpg
+WARNING 2019-01-03 23:55:33,041 basehttp 136 "GET /MyBlog_Static_Files/images/wechat.jpg HTTP/1.1" 404 2385
