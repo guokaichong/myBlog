@@ -46,3 +46,10 @@ WARNING 2019-01-03 23:55:19,306 basehttp 136 "GET /register/register.html HTTP/1
 INFO 2019-01-03 23:55:32,975 basehttp 136 "GET / HTTP/1.1" 200 17189
 WARNING 2019-01-03 23:55:33,039 log 228 Not Found: /MyBlog_Static_Files/images/wechat.jpg
 WARNING 2019-01-03 23:55:33,041 basehttp 136 "GET /MyBlog_Static_Files/images/wechat.jpg HTTP/1.1" 404 2385
+INFO 2019-01-04 00:30:11,929 basehttp 136 "GET / HTTP/1.1" 200 17189
+INFO 2019-01-04 00:30:11,940 basehttp 136 "GET /static/css/base/side.css HTTP/1.1" 304 0
+WARNING 2019-01-04 00:30:11,990 log 228 Not Found: /MyBlog_Static_Files/images/wechat.jpg
+WARNING 2019-01-04 00:30:11,991 basehttp 136 "GET /MyBlog_Static_Files/images/wechat.jpg HTTP/1.1" 404 2385
+INFO 2019-01-04 00:39:35,711 basehttp 136 "GET / HTTP/1.1" 200 17189
+WARNING 2019-01-04 00:39:35,767 log 228 Not Found: /MyBlog_Static_Files/images/wechat.jpg
+WARNING 2019-01-04 00:39:35,768 basehttp 136 "GET /MyBlog_Static_Files/images/wechat.jpg HTTP/1.1" 404 2385

@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'course',
     'doc',
     'new',
+    'verifications',
 
 ]
 
@@ -111,13 +112,43 @@ DATABASES = {
 #配置redis缓存
 CACHES = {
     "default": {
+        "BACKEND": "django_redis.cache.RedisCache",  # 指定redis缓存后端
+        "LOCATION": "redis://127.0.0.1:6379/0",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            # "PASSWORD": "mysecret"
+        }
+    },
+    # 同样可以指定多个redis
+    "session": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/0", # 指定 第0个数据库
+        "LOCATION": "redis://127.0.0.1:6379/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
+    "verify_codes": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "sms_codes": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+
 }
+
+# 将用户的session保存到redis中
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"   # 会话引擎
+SESSION_CACHE_ALIAS = "session"                             # 指定缓存redis的别名
+
+
 
 # 配置日志器，记录网站的日志信息
 LOGGING = {
@@ -207,3 +238,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),	# 用于存放静态文件
 ]
+
+# 自定义 用户模型
+AUTH_USER_MODEL = 'users.Users'
