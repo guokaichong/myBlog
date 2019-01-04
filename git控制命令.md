@@ -18,7 +18,7 @@
 配置个人信息：
 	# 全局配置个人信息
 	git config --global user.name "guokaichong"
-	git config --global user.email "2214866337@qq.com"
+	git config --global user.email "email@qq.com"
 ```
 
 ```
@@ -40,7 +40,7 @@
 ```
 第五步：创建密钥、公钥SSH KEY。先看一下你C盘用户目录下有没有.ssh目录，有的话看下里面有没有id_rsa和			   id_rsa.pub这两个文件，有就跳到下一步，没有就通过下面命令创建：
 
-	   ssh-keygen -t rsa -C "2214866337@qq.com"
+	   ssh-keygen -t rsa -C "email@qq.com"
 
  然后一路回车。这时你就会在用户下的.ssh目录里找到id_rsa和id_rsa.pub这两个文件。
 ```
