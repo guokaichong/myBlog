@@ -1,16 +1,15 @@
-from django.urls import path
+from django.contrib import admin
+from django.urls import path, include
+from django.conf import settings
 from . import views
 
-# app的名字
 app_name = 'users'
+# <a href="{% url 'users:index' %}" > </a>
 
-# 配置路由时,使用类视图的as_views()方法来添加
 urlpatterns = [
-
-    # 视图函数：注册
-    # url(r'^register/$', views.register, name='register'),
-
-    # 类视图：注册
-    path('register/',views.RegisterView.as_view(),name="register")
+    # path('register/', views.register, name="register"),
+    path('register/', views.RegisterView.as_view(), name="register"),
+    path('login/', views.LoginView.as_view(), name="login"),
+    path('logout/', views.LogoutView.as_view(), name="logout"),
 
 ]
